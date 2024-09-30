@@ -56,19 +56,25 @@ const ContentWrapper = styled(Box)(({ theme }) => ({
     marginLeft: "56px"
   },
 }));
+
 const SearchContainer = styled(Box)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
   width: "100%",
   marginBottom: '20px',
-  position: 'relative',
+  position: 'sticky',
+  top: 0,
+  zIndex: 1000,
+  backgroundColor: 'white',
+  padding: '10px 0',
   [theme.breakpoints.down('sm')]: {
     width: "100%",
     justifyContent: "space-around",
     gap: "20px",
   },
 }));
+
 
 const StyledTextField = styled(TextField)(({ theme }) => ({
   width: '256px',
