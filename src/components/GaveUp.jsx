@@ -52,7 +52,7 @@ const ContentWrapper = styled(Box)(({ theme }) => ({
   position: 'relative',
   [theme.breakpoints.down('sm')]: {
     width: '100wh',
-    padding: '0 10px',
+    padding: '0 20px',
     marginLeft: "56px"
   },
 }));
@@ -62,7 +62,7 @@ const SearchContainer = styled(Box)(({ theme }) => ({
   justifyContent: 'space-between',
   alignItems: 'center',
   width: "100%",
-  marginBottom: '20px',
+  marginBottom: '10px',
   position: 'sticky',
   top: 0,
   zIndex: 1000,
@@ -70,8 +70,10 @@ const SearchContainer = styled(Box)(({ theme }) => ({
   padding: '10px 0',
   [theme.breakpoints.down('sm')]: {
     width: "100%",
-    justifyContent: "space-around",
-    gap: "20px",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "50px",
+    marginTop: "5px"
   },
 }));
 
@@ -89,7 +91,7 @@ const StyledTextField = styled(TextField)(({ theme }) => ({
   },
   [theme.breakpoints.down('sm')]: {
     width: '180px',
-    marginTop: '20px',
+    marginTop: "5px"
   },
 }));
 
@@ -104,7 +106,7 @@ const ClearButton = styled(Button)(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     padding: '10px 19px',
     fontSize: '0.8rem',
-    marginTop: "20px"
+    marginTop: "5px"
   },
 }));
 
@@ -148,6 +150,6 @@ const StyledDiv = styled('div')(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     marginLeft: '10px',
     width: '90%',
-    top: '90px',
+    top: '83px',
   },
 }));
