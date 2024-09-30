@@ -62,7 +62,6 @@ const SearchContainer = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   width: "100%",
   marginBottom: '20px',
-  marginTop: '10px',
   position: 'relative',
   [theme.breakpoints.down('sm')]: {
     width: "100%",
@@ -107,7 +106,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
   display: 'grid',
   gridTemplateColumns: 'repeat(5, 1fr)',
   gap: '16px',
-  padding: '30px 0',
+  padding: '20px 0',
   margin: '0 auto',
   [theme.breakpoints.down('lg')]: {
     gridTemplateColumns: 'repeat(4, 1fr)',
@@ -143,6 +142,6 @@ const StyledDiv = styled('div')(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     marginLeft: '10px',
     width: '90%',
-    top: '100px',
+    top: '90px',
   },
 }));
