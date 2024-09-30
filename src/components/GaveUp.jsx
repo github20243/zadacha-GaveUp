@@ -53,7 +53,7 @@ const ContentWrapper = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     width: '100wh',
     padding: '0 10px',
-    marginLeft: "45px"
+    marginLeft: "56px"
   },
 }));
 const SearchContainer = styled(Box)(({ theme }) => ({
