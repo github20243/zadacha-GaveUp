@@ -53,7 +53,7 @@ const ContentWrapper = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     width: '100wh',
     padding: '0 10px',
-    marginLeft: "120px"
+    marginLeft: "105px"
   },
 }));
 const SearchContainer = styled(Box)(({ theme }) => ({
@@ -66,7 +66,7 @@ const SearchContainer = styled(Box)(({ theme }) => ({
   position: 'relative',
   [theme.breakpoints.down('sm')]: {
     width: "100%",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     gap: "20px",
   },
 }));
@@ -142,8 +142,8 @@ const StyledDiv = styled('div')(({ theme }) => ({
   position: 'absolute', 
   top: '100px',
   [theme.breakpoints.down('sm')]: {
-    marginLeft: '-10px',
-    width: '100%',
+    marginLeft: '10px',
+    width: '90%',
     top: '140px',
   },
 }));
